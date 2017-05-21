@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazyImageView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIImageView *)&lt;#imageViewName#&gt; {
+if (!_&lt;#imageViewName#&gt;) {
+        _&lt;#imageViewName#&gt; = [WXFactoryMethod imageViewWithFrame:CGRectMake(0, 0, 0, 0) image:[UIImage imageNamed:@""] color:nil];
+    [_&lt;#imageViewName#&gt; ReCGRectMake:_&lt;#imageViewName#&gt;.frame isNeedChange:YES];
+    }
+    return _&lt;#imageViewName#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A563532D-D869-4A33-9316-5E2FEC243D54</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>LazyInit UIImageView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
